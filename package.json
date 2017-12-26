@@ -1,0 +1,46 @@
+{
+  "name": "memory02-published",
+  "version": "0.0.1",
+  "description": "Data-mining Cloud Worker for UserToken.com",
+  "keywords": [
+    "memory02",
+    "primus",
+    "token-memory"
+  ],
+  "license": "MIT",
+  "author": "Alex Davis <alex@alex2006hw.com>",
+  "main": "server.js",
+  "repository": {},
+  "scripts": {
+    "prestart": "mkdir -p data",
+    "start": "npm run start:server:data",
+    "start:server:data": "node server/server-levelhyper.js",
+    "start:server:gateway:1": "node server/cluster.js",
+    "start:server:gateway:pm2": "./node_modules/pm2/bin/pm2 start server/server.js --name \"memory02-usertoken\" ",
+    "stop": "./node_modules/pm2/bin/pm2 stop \"memory02-usertoken\" ",
+    "poststop": "./node_modules/pm2/bin/pm2 delete \"memory02-usertoken\" ",
+    "test": "cd tests;node client.js",
+    "wait:sleep": "while(true);do sleep 1000;done"
+  },
+  "dependencies": {
+    "babel-runtime": "6.26.0",
+    "body-parser": "1.18.2",
+    "cluster": "0.7.7",
+    "dotenv": "4.0.0",
+    "express": "4.16.2",
+    "gun": "0.9.1",
+    "jwt-simple": "0.5.1",
+    "level-hyper": "1.2.2",
+    "leveldown": "2.1.1",
+    "levelup": "2.0.1",
+    "object-assign": "4.1.1",
+    "pm2": "^2.9.1",
+    "primus": "7.1.0",
+    "serve-favicon": "2.4.5",
+    "ws": "3.3.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "6.x"
+  }
+}
