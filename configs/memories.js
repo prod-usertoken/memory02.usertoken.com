@@ -12,7 +12,7 @@ var DEV_CLOUD_MEMORIES = exports.DEV_CLOUD_MEMORIES = "https://tropospheric-trop
 var MY_MEMORY = "https://m2-ut-admin.193b.starter-ca-central-1.openshiftapps.com/gun";
 var PEER_CLOUD_MEMORIES = ["https://dev-ut-redhat.193b.starter-ca-central-1.openshiftapps.com/gun", "https://dev-ut-memtwo.193b.starter-ca-central-1.openshiftapps.com/gun"];
 
-exports.CLOUD_MEMORIES = PROD_CLOUD_MEMORIES;
+exports.CLOUD_MEMORIES = MY_MEMORY;
 
 //exports.MY_MEMORY = "https://memory02.alex2006hw.com";
 //exports.PEER_MEMORIES = [

@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 alex2006hw; /////
-var HOSTNAME = exports.HOSTNAME = "memory02.alex2006hw.com";
+var HOSTNAME = exports.HOSTNAME = "memory02.usertoken.com";
 var DATA_FILE = exports.DATA_FILE = "data/data-" + HOSTNAME + "-server";
 var DEVICE_ID = exports.DEVICE_ID = false;
 var PROD_CLOUD_MEMORIES = exports.PROD_CLOUD_MEMORIES = "https://tropospheric.mybluemix.net/gun";
