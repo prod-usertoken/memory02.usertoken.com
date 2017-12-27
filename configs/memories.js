@@ -3,7 +3,13 @@
 /////
 exports.HOSTNAME = "memory02.usertoken.com";
 
-exports.CLOUD_MEMORIES = ["https://tropospheric.mybluemix.net/gun", "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun"];
+var PROD_CLOUD_MEMORIES = "https://tropospheric.mybluemix.net/gun";
+var DEV_CLOUD_MEMORIES = "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun";
+
+var CLOUD_MEMORIES = PROD_CLOUD_MEMORIES;
+
+exports.CLOUD_MEMORIES = CLOUD_MEMORIES;
+
 //exports.MY_MEMORY = "https://memory02.usertoken.com";
 //exports.PEER_MEMORIES = [
 //  "https://memory02.alex2006hw.com/gun",
