@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-/////
-var HOSTNAME = exports.HOSTNAME = "memory02.usertoken.com";
+alex2006hw; /////
+var HOSTNAME = exports.HOSTNAME = "memory02.alex2006hw.com";
 var DATA_FILE = exports.DATA_FILE = "data/data-" + HOSTNAME + "-server";
 var DEVICE_ID = exports.DEVICE_ID = false;
 var PROD_CLOUD_MEMORIES = exports.PROD_CLOUD_MEMORIES = "https://tropospheric.mybluemix.net/gun";
@@ -12,14 +12,14 @@ var DEV_CLOUD_MEMORIES = exports.DEV_CLOUD_MEMORIES = "https://tropospheric-trop
 
 var CLOUD_MEMORIES = exports.CLOUD_MEMORIES = PROD_CLOUD_MEMORIES;
 
-var MY_MEMORY = exports.MY_MEMORY = "https://memory02.usertoken.com";
-var PEER_MEMORIES = exports.PEER_MEMORIES = ["https://memory02.usertoken.com/gun", "https://memory02.pointlook.com/gun", "https://memory02.usertoken.com/gun"];
+var MY_MEMORY = exports.MY_MEMORY = "https://memory02.alex2006hw.com";
+var PEER_MEMORIES = exports.PEER_MEMORIES = ["https://memory02.alex2006hw.com/gun", "https://memory02.pointlook.com/gun", "https://memory02.usertoken.com/gun"];
 //export const CHILD_MEMORIES = [
 //  "https://tropospheric.mybluemix.net/gun",
 //  "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://memory02-memory02-pl.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://m2-ut-admin.193b.starter-ca-central-1.openshiftapps.com/gun",
-//  "https://m2-usertoken.193b.starter-ca-central-1.openshiftapps.com/gun",
+//  "https://m2-alex2006hw.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://m2-memtwo.193b.starter-ca-central-1.openshiftapps.com/gun"
 //];
 /////
