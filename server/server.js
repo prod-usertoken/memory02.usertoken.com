@@ -19,7 +19,7 @@ var _require2 = require("./serverapi/index"),
     api = _require2.api;
 
 var _require3 = require("../configs/memories"),
-    CLOUD_MEMORIES = _require3.CLOUD_MEMORIES,
+    ROOT_MEMORIES = _require3.ROOT_MEMORIES,
     DATA_FILE = _require3.DATA_FILE;
 
 // const s3options = JSON.parse(JSON.stringify(process.env.s3options));
@@ -39,13 +39,13 @@ var server = app.listen(port);
 //   s3: s3options,
 //   file: DATA_FILE,
 //   web: server,
-//   peers: CLOUD_MEMORIES
+//   peers: ROOT_MEMORIES
 // });
 // const gunOptions = {
 //   s3: s3options,
 //   file: DATA_FILE + "-file",
 //   web: server,
-//   peers: CLOUD_MEMORIES
+//   peers: ROOT_MEMORIES
 // };
 
 console.log("1.server options : ", gunOptions);

@@ -17,7 +17,7 @@ var Gun = require("gun");
 var gunlevel = require("./vendors/gun-level");
 
 var _require = require("../configs/memories"),
-    CLOUD_MEMORIES = _require.CLOUD_MEMORIES;
+    ROOT_MEMORIES = _require.ROOT_MEMORIES;
 
 var _require2 = require("../configs/localconfigs"),
     DATA_FILE = _require2.DATA_FILE;
@@ -67,7 +67,7 @@ var gunOptions = {
   s3: s3options,
   file: false,
   web: server,
-  peer: CLOUD_MEMORIES
+  peer: ROOT_MEMORIES
 };
 
 // console.log("1.server-levelhyper options : ", gunOptions);

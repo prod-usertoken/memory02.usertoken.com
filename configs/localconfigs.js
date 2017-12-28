@@ -3,22 +3,26 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-alex2006hw; /////
+/////
 var HOSTNAME = exports.HOSTNAME = "memory02.usertoken.com";
-var DATA_FILE = exports.DATA_FILE = "data/data-" + HOSTNAME + "-server";
+var DATA_FILE = exports.DATA_FILE = "data/data-" + HOSTNAME + "-client";
 var DEVICE_ID = exports.DEVICE_ID = false;
-var PROD_CLOUD_MEMORIES = exports.PROD_CLOUD_MEMORIES = "https://tropospheric.mybluemix.net/gun";
-var DEV_CLOUD_MEMORIES = exports.DEV_CLOUD_MEMORIES = "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun";
 
-var CLOUD_MEMORIES = exports.CLOUD_MEMORIES = PROD_CLOUD_MEMORIES;
-
-var MY_MEMORY = exports.MY_MEMORY = "https://memory02.alex2006hw.com";
-var PEER_MEMORIES = exports.PEER_MEMORIES = ["https://memory02.alex2006hw.com/gun", "https://memory02.pointlook.com/gun", "https://memory02.usertoken.com/gun"];
-//export const CHILD_MEMORIES = [
+var MY_MEMORY = exports.MY_MEMORY = CLOUD_MEMORIES;
+var CLOUD_MEMORIES = exports.CLOUD_MEMORIES = "https://m2-ut-admin.193b.starter-ca-central-1.openshiftapps.com/gun";
+var DEV_CLOUD_MEMORIES = exports.DEV_CLOUD_MEMORIES = ["https://dev-ut-redhat.193b.starter-ca-central-1.openshiftapps.com/gun", "https://dev-ut-memtwo.193b.starter-ca-central-1.openshiftapps.com/gun"];
+var ROOT_MEMORIES = exports.ROOT_MEMORIES = ["https://tropospheric.mybluemix.net/gun", "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun"];
+//export const MY_MEMORY = "https://memory02.alex2006hw.com/gun";
+//export const ROOT_MEMORIES = [
+//  "https://memory02.alex2006hw.com/gun",
+//  "https://memory02.pointlook.com/gun",
+//  "https://memory02.alex2006hw.com/gun"
+//];
+//export const PEER_MEMORIES = [
 //  "https://tropospheric.mybluemix.net/gun",
 //  "https://tropospheric-tropospheric.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://memory02-memory02-pl.193b.starter-ca-central-1.openshiftapps.com/gun",
-//  "https://m2-ut-admin.193b.starter-ca-central-1.openshiftapps.com/gun",
+//  "https://m2-admin-ut-m2-admin-ut.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://m2-alex2006hw.193b.starter-ca-central-1.openshiftapps.com/gun",
 //  "https://m2-memtwo.193b.starter-ca-central-1.openshiftapps.com/gun"
 //];
