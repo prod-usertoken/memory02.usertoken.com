@@ -16,7 +16,7 @@ var Gun = require("gun");
 // const { Gun, gun } = require("./api/gundb");
 var gunlevel = require("./vendors/gun-level");
 
-var _require = require("../configs/memories"),
+var _require = require("../configs/serverMemories"),
     ROOT_MEMORIES = _require.ROOT_MEMORIES;
 
 var _require2 = require("../configs/localconfigs"),
